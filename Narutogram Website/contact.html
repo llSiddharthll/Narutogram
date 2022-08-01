@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Contact Naruto website</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="gallary//logo2-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="clan.html">CLAN</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Contact Us</h1>
+
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d695.6031118062933!2d80.94398384234852!3d26.927023890551382!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957aade3c54ed%3A0xa10b1aa702787bc4!2zMjbCsDU1JzM2LjAiTiA4MMKwNTYnMzkuMiJF!5e0!3m2!1sen!2sin!4v1659307179411!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span><h5>
+                        645A/602, Jankivihar Colony, jankipuram
+                    </h5>
+                    <p>Lucknow, Uttar Pradesh, India</p>
+                </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span><h5>
+                        +916307862150
+                    </h5>
+                    <p>Call Me Anytime</p>
+                </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span><h5>
+                        siddharthgreat443@gmail.com
+                    </h5>
+                    <p>Email Us Your Queries</p>
+                </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message"></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+            </form>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p> The Uchiha were relocated to the edge of the village, <br>isolating them from the rest of the village and making it easier to monitor them.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-discord"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Siddharth Tiwari</p>
+
+    </section>
+
+
+</body>
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+</html>

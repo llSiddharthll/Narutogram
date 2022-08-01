@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Blog of Naruto website</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="gallary//logo2-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="clan.html">CLAN</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>My Clan</h1>
+
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="gallary/clans.jpg" >
+                <h2>Clan Description</h2>
+                <p>A clan (一族, Ichizoku, literally meaning: household, clan), in the loosest sense of the term, refers to a family or group of shinobi who form a basic unit of a shinobi village. A majority of these clans were mercenary military forces even before the First Shinobi World War.[1] The Senju clan and Uchiha clan were the first known clans to have agreed to settle and form a shinobi village, facilitated by creating agreements with the daimyō of the land they inhabit. Many clans would follow the example of the Senju and the Uchiha, later establishing the Five Great Shinobi Countries as they are known today.</p><br>
+
+                <p>Membership in a clan is usually determined by blood relations and genetics, which is vital in the usage of kekkei genkai and secret techniques. These attributes and abilities made many clans feared and renowned throughout many villages. While clans may be composed of many individuals and extended families, many clans mentioned and seen in the series were somewhat limited to a nuclear family.</p><br>
+
+                <p>The Uchiha Clan (うちは一族, Uchiha Ichizoku) is one of the four noble clans of Konohagakure, reputed to be the village's strongest because of their Sharingan and natural battle prowess. After helping found Konoha decades ago, the Uchiha grew increasingly isolated from the village's affairs, culminating in most of their deaths during the Uchiha Clan Downfall. Few Uchiha now survive into the present day.</p>
+
+            <div class="comment-box">
+                <h3>Leave A comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                </form>
+            </div>
+
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Catagories</h3>
+                <div>
+                    <span>Uchiha's</span>
+                    <span>21</span>
+                </div>
+
+                <div><span>Uzumaki's</span>
+                    <span>26</span></div>
+
+                    <div><span>Senju's</span>
+                    <span>15</span></div>
+
+                    <div><span>Otsutsuki</span>
+                    <span>12</span></div>
+
+                    <div><span>Nara's</span>
+                    <span>30</span></div>
+
+                    <div><span>Yamanaka</span>
+                    <span>65</span></div>
+
+                    <div><span>Akimichi</span>
+                    <span>35</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="footer">
+        <h4>About us</h4>
+        <p> The Uchiha were relocated to the edge of the village, <br>isolating them from the rest of the village and making it easier to monitor them.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-discord"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Siddharth Tiwari</p>
+
+    </section>
+
+
+</body>
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+</html>
